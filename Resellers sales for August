@@ -1,1 +1,27 @@
 
+resellers_data = {}
+resellers_left = {}
+
+while True:
+    current_data = input().split("-")
+    if len(current_data) == 1:
+        break
+    elif len(current_data) == 2:
+        reseller_name = current_data[0]
+        del resellers_data[reseller_name]
+        if reseller_name not in resellers_left.keys():
+            resellers_left[reseller_name] = 0
+        resellers_left[reseller_name] = total_price
+    elif len(current_data) == 3:
+        reseller_name, quantity, total_price = current_data[0],int(current_data[1]),float(current_data[2])
+        if reseller_name not in resellers_data.keys():
+            resellers_data[reseller_name] = 0
+        if resellers_data[reseller_name] < total_price:
+            resellers_data[reseller_name]  = total_price
+
+print("Sales in August:")
+for reseller,total_price in resellers_data.items():
+    print(f"{reseller} | {total_price}")
+print("Left:")
+for reseller,total_price in resellers_left.items():
+    print(f"{reseller} | {total_price}")
