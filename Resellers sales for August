@@ -19,9 +19,11 @@ while True:
         if resellers_data[reseller_name] < total_price:
             resellers_data[reseller_name]  = total_price
 
+
 print("Sales in August:")
 for reseller,total_price in resellers_data.items():
     print(f"{reseller} | {total_price}")
-print("Left:")
-for reseller,total_price in resellers_left.items():
-    print(f"{reseller} | {total_price}")
+if resellers_left:
+    print("Left:")
+    for reseller,total_price in resellers_left.items():
+        print(f"{reseller} | {total_price}")
