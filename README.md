@@ -11,6 +11,7 @@
 - Desired data output: 
   - display only unique values
   - output format should be:
+    
   ![image](https://github.com/ivarozelin/Python/assets/134283235/1bfbe8be-c629-4c61-9e21-4b347ae50522)
 
 - Code document: see "Resellers sales for August" file in this repository.
