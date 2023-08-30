@@ -8,7 +8,7 @@
 - Requirements:
   - If a re-seller has two or more submissions for the same bavarage, save only the maximum quantity of it and then calculate the final price.
   - If the re-seller left the compation but previously he sold some quantity, you shuld remove his name from the sales info but keep his data in the "Left" section.
-  - if no re-seller left the competition, don`t
+  - if no re-seller left the competition, don`t display the "Left" print.
 - Desired data output: 
   - display the resellers only ones
   - output format should be:
