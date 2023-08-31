@@ -133,7 +133,64 @@ more occurrences.
         You have a new text message: hello darling!
   
 
+# Task 3 - Vehicle
+- Description: create a class Vehicle.
+  
+- Requirements:
+  
+    The class should have the following methods:
+  
+      - buy(money: int, owner: str)
+  
+        - If the person has enough money and the vehicle has no owner, returns: "Successfully bought a {type}. Change: {change}" and sets the owner to the given one
+  
+        - If the money is not enough, return: "Sorry, not enough money"
+  
+        - If the car already has an owner, return: "Car already sold"
+  
+    - sell()
+      
+        - If the car has an owner, set it to None again.
+          
+        - Otherwise, return: "Vehicle has no owner"
+          
+    - __repr__()
+      
+      - If the vehicle has an owner, returns: "{model} {type} is owned by: {owner}".
+        
+      - Otherwise, return: "{model} {type} is on sale: {price}"
+     
+  - Test:
+    
+    - Input data:
 
+      vehicle_type = "car"
+      
+      model = "BMW"
+      
+      price = 30000
+      
+      vehicle = Vehicle(vehicle_type,model, price)
+      
+      print(vehicle.buy(15000, "Peter"))
+      
+      print(vehicle.buy(35000, "George"))
+      
+      print(vehicle)
+      
+      vehicle.sell()
+      
+      print(vehicle)
+
+  - Expected output:
+
+    Sorry, not enough money
+    
+    Successfully bought a car. Change: 5000.00
+    
+    BMW car is owned by: George
+    
+    BMW car is on sale: 30000
 
       
   
