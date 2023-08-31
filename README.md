@@ -1,7 +1,7 @@
 
 
 # Task 1: Resellers sales for August
-- Description: A 3rd party company provides you every month with the data that contains the sales of your brand new bavarage named "Ginger Beer" in Bulgaria where you conduct a conmpetion among your re-sellers who will win the first prize of 50 000 USD.
+- Description: A 3rd party company provides you every month with the data that contains the sales of your brand new bavarage named "Ginger Beer" in Bulgaria.
 - Input data: You will be receiving lines in the following format: "{reseller}-{quantity}-{bottle price}" until you receive
 "data is provided".However, you might have lines that are invalid because the reseller left the competion. Such lines will be display in the format {reseller}-left".
 - Specification: the data you receive is accumulative - this means the sales of the reseller each day includes the sales from previous day(s).
@@ -32,6 +32,15 @@
       data is provided
 
     - Expected output:
+      
+      Sales in August:
+      Lily | 179.7
+      Mikey | 195.65
+      Alex | 269.55
+
+
+** Process exited - Return Code: 0 **
+Press Enter to exit terminal
  
     
 
