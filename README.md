@@ -17,31 +17,43 @@
 
 - Code document: see "Resellers sales for August" file in this repository.
 - Test scenario:
-  - Test 1 input data:
-    
-    Lily-20-119.80
-    
-    Mikey-35-195.65
-    
-    Lily-30-179.70
-    
-    Alex-45-269.55
-    
-    data is provided
+  - Test 1:
 
-  - Test 2 input data:
+    - Input data:
     
-    Lily-20-119.80
+      Lily-20-119.80
     
-    Mikey-35-195.65
+      Mikey-35-195.65
     
-    Lily-30-179.70
+      Lily-30-179.70
     
-    Alex-45-269.55
+      Alex-45-269.55
     
-    Mikey-left
+      data is provided
 
-    data is provided
+    - Expected output:
+ 
+    
+
+  - Test 2:
+  
+    - input data:
+    
+      Lily-20-119.80
+    
+      Mikey-35-195.65
+    
+      Lily-30-179.70
+    
+      Alex-45-269.55
+    
+      Mikey-left
+
+      data is provided
+
+    - Expected output:
+
+      
   
 
     
