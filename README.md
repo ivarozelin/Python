@@ -62,6 +62,15 @@
 
       Sales in August:
 
+      Lily-30-179.70
+    
+      Alex-45-269.55
+
+      Left:
+
+      Mikey-35-195.65
+      
+
       
 
       
