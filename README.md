@@ -17,6 +17,7 @@
 
 - Code document: see "Resellers sales for August" file in this repository.
 - Test scenario:
+  
   - Test 1:
 
     - Input data:
@@ -34,15 +35,12 @@
     - Expected output:
       
       Sales in August:
+      
       Lily | 179.7
+      
       Mikey | 195.65
-      Alex | 269.55
-
-
-** Process exited - Return Code: 0 **
-Press Enter to exit terminal
- 
-    
+      
+      Alex | 269.55 
 
   - Test 2:
   
@@ -61,6 +59,10 @@ Press Enter to exit terminal
       data is provided
 
     - Expected output:
+
+      Sales in August:
+
+      
 
       
   
