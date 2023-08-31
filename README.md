@@ -17,7 +17,7 @@
 
 - Code document: see "Resellers sales for August" file in this repository.
 - Test scenario:
-  - Test 1:
+  - Test 1 input data:
     
     Lily-20-119.80
     
@@ -29,7 +29,7 @@
     
     data is provided
 
-  - Test 2:
+  - Test 2 input data:
     
     Lily-20-119.80
     
