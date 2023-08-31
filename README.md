@@ -181,15 +181,15 @@ more occurrences.
       
       print(vehicle)
 
-  - Expected output:
+    - Expected output:
 
-    Sorry, not enough money
+      Sorry, not enough money
     
-    Successfully bought a car. Change: 5000.00
+      Successfully bought a car. Change: 5000.00
     
-    BMW car is owned by: George
+      BMW car is owned by: George
     
-    BMW car is on sale: 30000
+      BMW car is on sale: 30000
 
       
   
