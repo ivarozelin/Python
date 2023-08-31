@@ -16,6 +16,7 @@
     ![image](https://github.com/ivarozelin/Python/assets/134283235/57512d21-17f7-4ff5-a8be-62082940aa5b)
 
 - Code document: see "Resellers sales for August" file in this repository.
+  
 - Test scenario:
   
   - Test 1:
@@ -73,9 +74,7 @@
 
 # Task 2: Secret chat
 
-- Desription: On the first line of the input, you will receive the concealed message. After that, until the "Reveal" command is
-given, you will receive strings with instructions for different operations that need to be performed upon the
-concealed message to interpret it and reveal its actual content.
+- Desription: On the first line of the input, you will receive the concealed message. After that, until the "Reveal" command is given, you will receive strings with instructions for different operations that need to be performed upon the concealed message to interpret it and reveal its actual content.
 
   There are several types of instructions, split by ":|:"
 
@@ -138,9 +137,9 @@ more occurrences.
   
 - Requirements:
   
-    The class should have the following methods:
+  The class should have the following methods:
   
-      - buy(money: int, owner: str)
+    - buy(money: int, owner: str)
   
         - If the person has enough money and the vehicle has no owner, returns: "Successfully bought a {type}. Change: {change}" and sets the owner to the given one
   
